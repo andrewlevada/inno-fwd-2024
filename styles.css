@@ -63,7 +63,7 @@ a:link, a:visited {
     gap: 20px;
 }
 
-#works {
+#works, #comic {
     gap: 24px;
 }
 
@@ -92,6 +92,18 @@ a:link, a:visited {
 }
 
 .work-card .date {
+    color: #0E235899;
+}
+
+#comic img {
+    width: fit-content;
+    max-width: 100%;
+    height: auto;
+
+    padding-bottom: 8px;
+}
+
+#comic .date {
     color: #0E235899;
 }
 
