@@ -67,7 +67,7 @@ a:link, a:visited {
     gap: 24px;
 }
 
-#works-grid {
+#works-grid, #works-grid > div {
     gap: 20px;
 }
 
