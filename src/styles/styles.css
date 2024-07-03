@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html {
     background-color: #F5F5F5;
 
@@ -27,84 +31,9 @@ a:link, a:visited {
     color: #0E2358;
 }
 
-#page {
+.page {
     max-width: 880px;
     margin: 0 auto;
     padding: 120px 0;
     gap: 80px;
 }
-
-#intro {
-    gap: 40px;
-}
-
-#about {
-    gap: 6px;
-}
-
-#about h1 span {
-    padding: 0 8px;
-}
-
-#about button {
-    width: fit-content;
-    color: #0E235899;
-}
-
-#bio {
-    max-width: 600px;
-}
-
-#bio.hidden {
-    display: none;
-}
-
-#contacts {
-    gap: 20px;
-}
-
-#works, #comic {
-    gap: 24px;
-}
-
-#works-grid, #works-grid > div {
-    gap: 20px;
-}
-
-.work-card {
-    width: 280px;
-    gap: 8px;
-}
-
-.work-card img {
-    width: 100%;
-    height: auto;
-    border-radius: 1px;
-}
-
-.work-card p, .work-card a {
-    font-size: 15px;
-    letter-spacing: -0.45px;
-}
-
-.work-card .meta {
-    gap: 8px;
-}
-
-.work-card .date {
-    color: #0E235899;
-}
-
-#comic img {
-    width: fit-content;
-    max-width: 100%;
-    height: auto;
-
-    padding-bottom: 8px;
-}
-
-#comic .date {
-    color: #0E235899;
-}
-
-
