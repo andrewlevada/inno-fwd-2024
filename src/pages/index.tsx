@@ -42,11 +42,11 @@ export default function Home() {
         <div className="flex flex-row w-full gap-5">
           <p>Contact me at →</p>
 
-          <LinkWithIcon href="https://read.cv/andrewlevada" iconSrc="/icons/readcv.svg" label="Read CV" />
-          <LinkWithIcon href="https://instagram.com/andrewlevada/" iconSrc="/icons/instagram.svg" label="Instagram" />
-          <LinkWithIcon href="https://linkedin.com/in/andrewlevada/" iconSrc="/icons/linkedin.svg" label="LinkedIn" />
-          <LinkWithIcon href="https://t.me/andrewlevada" iconSrc="/icons/telegram.svg" label="Telegram" />
-          <LinkWithIcon href="https://github.com/andrewlevada" iconSrc="/icons/github.svg" label="GitHub" />
+          <LinkWithIcon href="https://read.cv/andrewlevada" iconSrc="/inno-fwd-2024/icons/readcv.svg" label="Read CV" />
+          <LinkWithIcon href="https://instagram.com/andrewlevada/" iconSrc="/inno-fwd-2024/icons/instagram.svg" label="Instagram" />
+          <LinkWithIcon href="https://linkedin.com/in/andrewlevada/" iconSrc="/inno-fwd-2024/icons/linkedin.svg" label="LinkedIn" />
+          <LinkWithIcon href="https://t.me/andrewlevada" iconSrc="/inno-fwd-2024/icons/telegram.svg" label="Telegram" />
+          <LinkWithIcon href="https://github.com/andrewlevada" iconSrc="/inno-fwd-2024/icons/github.svg" label="GitHub" />
 
           <a href="mailto:levada.andrew@gmail.com" target="_blank" id="email">Email</a>
         </div>

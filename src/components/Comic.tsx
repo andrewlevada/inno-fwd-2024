@@ -27,7 +27,7 @@ export default function Comic() {
         <div className="flex flex-col w-full gap-6">
             <div className="flex flex-col">
                 <Image className="w-fit h-auto m-w-full pb-2"
-                    src={comicData?.img || "/comic-placeholder.png"}
+                    src={comicData?.img || "/inno-fwd-2024/comic-placeholder.png"}
                     alt={comicData?.alt || "loading comic..."}
                     width={512} height={256} />
 
