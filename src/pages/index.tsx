@@ -1,4 +1,3 @@
-import Image from "next/image";
 import WorkCard from "@/components/WorkCard";
 import cardsList from "@/content/work-cards";
 import { useState } from "react";
